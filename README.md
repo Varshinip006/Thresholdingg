@@ -35,7 +35,7 @@ import matplotlib.pyplot as plt
 # Read the Image and convert to grayscale
 
 ```
-image=cv2.imread("C:\\Users\\admin\\Downloads\\download (7).jpg")
+image=cv2.imread("c1.jpg")
 gray_img=cv2.cvtColor(image,cv2.COLOR_BGR2GRAY)
 ```
 
@@ -94,22 +94,26 @@ plt.axis('off')
 
 ### Original Image
 
-<img width="795" height="309" alt="image" src="https://github.com/user-attachments/assets/b60500f1-47ae-473e-9bbf-ce9148c22117" />
+<img width="152" height="225" alt="Screenshot 2025-11-12 103602" src="https://github.com/user-attachments/assets/4a913be6-e6a9-4338-b6cf-44872d9d5ab1" />
+
 
 
 ### Global Thresholding
 
-<img width="889" height="309" alt="image" src="https://github.com/user-attachments/assets/27c52d7b-861b-4b34-a97b-c53363f3f545" />
+<img width="198" height="234" alt="Screenshot 2025-11-12 103650" src="https://github.com/user-attachments/assets/5bf12794-1b73-47bb-9012-c0d7f5c4261d" />
+
 
 
 ### Adaptive Thresholding
 
-<img width="813" height="313" alt="image" src="https://github.com/user-attachments/assets/dca6c57e-bae6-42bb-8a80-a36763c228e7" />
+<img width="230" height="240" alt="image" src="https://github.com/user-attachments/assets/6fe58d83-5e55-4054-b9e5-876c75047900" />
+
 
 
 ### Optimum Global Thesholding using Otsu's Method
 
-<img width="1014" height="312" alt="image" src="https://github.com/user-attachments/assets/46660c77-1783-447d-a9a5-b2102069a084" />
+<img width="152" height="226" alt="image" src="https://github.com/user-attachments/assets/771c9007-50ac-4af9-906d-534245514a3a" />
+
 
 
 ## Result
